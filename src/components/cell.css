@@ -1,0 +1,29 @@
+.cell {
+  border: 1px solid #000000;
+}
+
+.cell:before {
+  content: '';
+  display: block;
+  padding-top: 100%;
+}
+
+.cell--empty {
+  background-color: #e9ebee;
+}
+
+.cell--miss {
+  background-color: #898f9c;
+}
+
+.cell--ship {
+  background-color: #29487d;
+}
+
+.cell--hit {
+  background-color: #ffae03;
+}
+
+.cell--destroy {
+  background-color: #fe4e00;
+}

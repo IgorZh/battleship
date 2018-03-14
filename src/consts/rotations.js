@@ -1,0 +1,6 @@
+export const ROTATIONS = {
+  NONE: 'NONE',
+  QUARTER: 'QUARTER',
+  HALF: 'HALF',
+  THREE_QUARTER: 'THREE_QUARTER',
+};
